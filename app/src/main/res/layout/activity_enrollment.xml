@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvAvailableSubjects"
+        android:text="Available Subjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <ListView
+        android:id="@+id/lvSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnEnroll"
+        android:text="Enroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/summary"
+        android:text="Subject Taken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
